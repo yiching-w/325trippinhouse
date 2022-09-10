@@ -3,9 +3,9 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-require_once __DIR__ . 'https://pinms.com.tw/325trippinhouse/vendor/phpmailer/src/Exception.php';
-require_once __DIR__ . 'https://pinms.com.tw/325trippinhouse/vendor/phpmailer/src/PHPMailer.php';
-require_once __DIR__ . 'https://pinms.com.tw/325trippinhouse/vendor/phpmailer/src/SMTP.php';
+require_once __DIR__ . '/vendor/phpmailer/src/Exception.php';
+require_once __DIR__ . '/vendor/phpmailer/src/PHPMailer.php';
+require_once __DIR__ . '/vendor/phpmailer/src/SMTP.php';
 
 // passing true in constructor enables exceptions in PHPMailer
 $mail = new PHPMailer(true);
