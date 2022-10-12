@@ -561,12 +561,57 @@ ol {
 	display: none;
 }
 
-.hero_item img {
+.hero_item .avatar {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 	position: absolute;
 	width: 100%;
 	height: 85%;
-	object-fit: cover;
 }
+
+@media (min-width:769px) {
+	.hero_item .avatar.adam {
+		background-image: url(../images/banner/Adam_pc.jpg) !important;
+	}
+
+	.hero_item .avatar.ning1 {
+		background-image: url(../images/banner/Ning1_pc.jpg) !important;
+	}
+
+	.hero_item .avatar.yellow {
+		background-image: url(../images/banner/Yellow_pc.jpg) !important;
+	}
+
+	.hero_item .avatar.jk {
+		background-image: url(../images/banner/J.K_pc.jpg) !important;
+	}
+
+	.hero_item .avatar.dolle {
+		background-image: url(../images/banner/Dolle_pc.jpg) !important;
+	}
+
+	.hero_item .avatar.kane {
+		background-image: url(../images/banner/Kane_pc.jpg) !important;
+	}
+
+	.hero_item .avatar.plug {
+		background-image: url(../images/banner/Plug_pc.jpg) !important;
+	}
+
+	.hero_item .avatar.berkey {
+		background-image: url(../images/banner/Berkey_pc.jpg) !important;
+	}
+
+	.hero_item .avatar.vuk {
+		background-image: url(../images/banner/Vuk_pc.jpg) !important;
+	}
+
+	.hero_item .avatar.ning2 {
+		background-image: url(../images/banner/Ning2_pc.jpg) !important;
+	}
+}
+
 
 .hero_name {
 	background-color: #000;
@@ -867,6 +912,20 @@ section.hero {
 	}
 }
 
+@media (min-width:992px) {
+	#banner_name {
+		font-size: 3rem;
+		width: 440px;
+		bottom: 230px;
+	}
+
+	.hero_name {
+		width: 145px;
+		font-size: 30px;
+		bottom: 170px;
+	}
+}
+
 /*---------------------
   About
 -----------------------*/
@@ -944,6 +1003,20 @@ h4.about_title {
 	z-index: -1;
 }
 
+@media(min-width:992px) {
+	.trippinHouse_block {
+		width: 60%;
+	}
+
+	.about_content {
+		line-height: 32px;
+		width: 55%;
+		margin: 0 auto;
+		font-size: 1.1rem;
+		letter-spacing: 0.2px;
+	}
+}
+
 /*---------------------
   Recruitment
 -----------------------*/
@@ -1001,6 +1074,22 @@ section.reservation {
 	font-size: 1.5rem;
 }
 
+@media(min-width:992px) {
+	.reservation_title {
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	.reservation_env {
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	.price_note {
+		text-align: center;
+	}
+}
+
 
 /*---------------------
   portfolio
@@ -1047,6 +1136,48 @@ section.reservation {
 	text-align: center;
 	padding: 10px;
 	margin-bottom: 20px;
+}
+
+@media (min-width:769px) {
+	.portfolio-jarallax-1 {
+		background-image: url(../images/banner/Adam_pc.jpg) !important;
+	}
+
+	.portfolio-jarallax-2 {
+		background-image: url(../images/banner/Ning1_pc.jpg) !important;
+	}
+
+	.hero_item .avatar.yellow {
+		background-image: url(../images/banner/Yellow_pc.jpg) !important;
+	}
+
+	.hero_item .avatar.jk {
+		background-image: url(../images/banner/J.K_pc.jpg) !important;
+	}
+
+	.hero_item .avatar.dolle {
+		background-image: url(../images/banner/Dolle_pc.jpg) !important;
+	}
+
+	.hero_item .avatar.kane {
+		background-image: url(../images/banner/Kane_pc.jpg) !important;
+	}
+
+	.hero_item .avatar.plug {
+		background-image: url(../images/banner/Plug_pc.jpg) !important;
+	}
+
+	.hero_item .avatar.berkey {
+		background-image: url(../images/banner/Berkey_pc.jpg) !important;
+	}
+
+	.hero_item .avatar.vuk {
+		background-image: url(../images/banner/Vuk_pc.jpg) !important;
+	}
+
+	.hero_item .avatar.ning2 {
+		background-image: url(../images/banner/Ning2_pc.jpg) !important;
+	}
 }
 
 /*---------------------
@@ -2344,6 +2475,18 @@ section.reservation {
 
 .contact_content {
 	font-size: 0.9rem;
+}
+
+
+@media(min-width:992px) {
+	.product__details__tab__content {
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	.appointment {
+		text-align: center;
+	}
 }
 
 /*---------------------

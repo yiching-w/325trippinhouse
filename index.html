@@ -45,6 +45,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="assets/css/main.css" type="text/css">
 </head>
 
@@ -111,7 +112,7 @@
                     <div class="animate__animated" data-animation-in="animate__backInRight" data-duration-in="0.1"
                         data-delay-in="0.3">M</div>
                 </div>
-                <img src="assets/images/banner/Adam.jpg" alt="Adam">
+                <div class="avatar adam" style="background-image: url(assets/images/banner/Adam.jpg);"></div>
             </div>
             <div class="hero_item">
                 <div class="hero_name">
@@ -124,7 +125,7 @@
                     <div class="animate__animated" data-animation-in="animate__backInRight" data-duration-in="0.1"
                         data-delay-in="0.3">G</div>
                 </div>
-                <img src="assets/images/banner/Ning1.jpg" alt="Ning">
+                <div class="avatar ning1" style="background-image: url(assets/images/banner/Ning1.jpg);"></div>
             </div>
             <div class="hero_item">
                 <div class="hero_name">
@@ -141,7 +142,7 @@
                     <div class="animate__animated" data-animation-in="animate__backInRight" data-duration-in="0.1"
                         data-delay-in="0.5">W</div>
                 </div>
-                <img src="assets/images/banner/Yellow.jpg" alt="Yellow">
+                <div class="avatar yellow" style="background-image: url(assets/images/banner/Yellow.jpg);"></div>
             </div>
             <div class="hero_item">
                 <div class="hero_name">
@@ -152,7 +153,7 @@
                     <div class="animate__animated" data-animation-in="animate__backInRight" data-duration-in="0.1"
                         data-delay-in="0.2">K</div>
                 </div>
-                <img src="assets/images/banner/J.k.jpg" alt="J.k">
+                <div class="avatar jk" style="background-image: url(assets/images/banner/J.k.jpg);"></div>
             </div>
             <div class="hero_item">
                 <div class="hero_name">
@@ -167,7 +168,7 @@
                     <div class="animate__animated" data-animation-in="animate__backInRight" data-duration-in="0.1"
                         data-delay-in="0.4">E</div>
                 </div>
-                <img src="assets/images/banner/Dolle.jpg" alt="Dolle">
+                <div class="avatar dolle" style="background-image: url(assets/images/banner/Dolle.jpg);"></div>
             </div>
             <div class="hero_item">
                 <div class="hero_name">
@@ -180,7 +181,7 @@
                     <div class="animate__animated" data-animation-in="animate__backInRight" data-duration-in="0.1"
                         data-delay-in="0.3">E</div>
                 </div>
-                <img src="assets/images/banner/Kane.jpg" alt="Kane">
+                <div class="avatar kane" style="background-image: url(assets/images/banner/Kane.jpg);"></div>
             </div>
             <div class="hero_item">
                 <div class="hero_name">
@@ -193,7 +194,7 @@
                     <div class="animate__animated" data-animation-in="animate__backInRight" data-duration-in="0.1"
                         data-delay-in="0.3">G</div>
                 </div>
-                <img src="assets/images/banner/Plug.jpg" alt="Plug">
+                <div class="avatar plug" style="background-image: url(assets/images/banner/Plug.jpg);"></div>
             </div>
             <div class="hero_item">
                 <div class="hero_name">
@@ -210,7 +211,7 @@
                     <div class="animate__animated" data-animation-in="animate__backInRight" data-duration-in="0.1"
                         data-delay-in="0.5">Y</div>
                 </div>
-                <img src="assets/images/banner/Berkey.jpg" alt="Berkey">
+                <div class="avatar berkey" style="background-image: url(assets/images/banner/Berkey.jpg);"></div>
             </div>
             <div class="hero_item">
                 <div class="hero_name">
@@ -221,7 +222,7 @@
                     <div class="animate__animated" data-animation-in="animate__backInRight" data-duration-in="0.1"
                         data-delay-in="0.2">K</div>
                 </div>
-                <img src="assets/images/banner/Vuk.jpg" alt="Vuk">
+                <div class="avatar vuk" style="background-image: url(assets/images/banner/Vuk.jpg);"></div>
             </div>
             <div class="hero_item">
                 <div class="hero_name">
@@ -234,7 +235,7 @@
                     <div class="animate__animated" data-animation-in="animate__backInRight" data-duration-in="0.1"
                         data-delay-in="0.3">G</div>
                 </div>
-                <img src="assets/images/banner/Ning2.jpg" alt="Ning">
+                <div class="avatar ning2" style="background-image: url(assets/images/banner/Ning2.jpg);"></div>
             </div>
         </div>
         <div id="scroll-down">
@@ -247,8 +248,9 @@
     <!-- About Section Begin -->
     <section class="about" id="about">
         <div class="container">
-            <h4 class="about_title">ABOUT</h4>
-            <div class="about_content text-center my-5">
+            <h4 class="about_title wow fadeInUp">
+                ABOUT</h4>
+            <div class="about_content text-center my-5 wow fadeInUp">
                 <div>325 Trippin House，位於桃園，</div>
                 <div>美髮結合酒吧的複合式經營，</div>
                 <div class="mb-2">提供嘻哈風格的各式染髮、燙髮服務。</div>
@@ -257,24 +259,27 @@
                 <div>一同讓台灣社會及品牌進步與發展作出貢獻</div>
                 <div class="en_content">Pursue the material and spiritual happiness of all partners.</div>
             </div>
-            <h4 class="about_title">BAND</h4>
-            <div class="trippinHouse_block">325 Trippin House</div>
-            <div class="about_content">
+            <h4 class="about_title wow fadeInUp">BAND</h4>
+            <div class="trippinHouse_block wow fadeInUp">325 Trippin House</div>
+            <div class="about_content wow fadeInUp">
                 Trippin House的中文翻譯是幻想屋，因為現在很多的年輕人心裡都懷抱著著夢想，卻也只敢想像，我們品牌的宗旨就是想要去幫助每一個年輕人完成心中幻想的那塊版圖.夢想，所以店名為Trippin
                 House(幻想屋)
             </div>
-            <div class="cool mt-5">
-                <a href="https://www.instagram.com/p/CUwrRuHMo3r/?igshid=YmMyMTA2M2Y=" target="_blank">
+            <div class="cool mt-5 row align-items-md-center justify-content-md-center wow fadeInUp">
+                <a class="col-md-6 col-lg-5" href="https://www.instagram.com/p/CUwrRuHMo3r/?igshid=YmMyMTA2M2Y="
+                    target="_blank">
                     <img src="assets/images/Cool.jpg" alt="cool" loading="lazy" width="100%">
                 </a>
-                <div class="cool_title">
-                    「你最酷的髮型哪裡買的到，全部都放在我的 trippinhouse」
+                <div class="col-md-6 col-lg-5 px-5">
+                    <div class="cool_title">
+                        「你最酷的髮型哪裡買的到，全部都放在我的 trippinhouse」
+                    </div>
+                    <div class="mb-3">會將店名取名做 325 trippinhouse，是因為對他們來說、Tripping 是一種融入到藝術空間裡的狀態，所以顧客在 trippinhouse
+                        裏頭會看見許多創作者的作品，包括手繪畫及塗鴉等。他們欲打造的 325 trippinhouse，並不是一般所常見的髮廊，是更融合到藝術及精神的空間，讓前來做髮型的顧客不僅能做出最 dope
+                        的模樣外，也能感受創作者們所想傳遞的夢想氛圍。</div>
+                    <div>值得一提的是，在 325 trippinhouse 的樓下也開設了間酒吧 ─ 325 bar。儘管目前是朝向較私人場所的方向經營，但 325 bar 主理人 小賴
+                        也提到在未來也可能會舉辦活動及音樂派對，甚至是邀請到饒舌歌手前來演出，預備在桃園建立獨特的嘻哈生態。</div>
                 </div>
-                <div class="mb-3">會將店名取名做 325 trippinhouse，是因為對他們來說、Tripping 是一種融入到藝術空間裡的狀態，所以顧客在 trippinhouse
-                    裏頭會看見許多創作者的作品，包括手繪畫及塗鴉等。他們欲打造的 325 trippinhouse，並不是一般所常見的髮廊，是更融合到藝術及精神的空間，讓前來做髮型的顧客不僅能做出最 dope
-                    的模樣外，也能感受創作者們所想傳遞的夢想氛圍。</div>
-                <div>值得一提的是，在 325 trippinhouse 的樓下也開設了間酒吧 ─ 325 bar。儘管目前是朝向較私人場所的方向經營，但 325 bar 主理人 小賴
-                    也提到在未來也可能會舉辦活動及音樂派對，甚至是邀請到饒舌歌手前來演出，預備在桃園建立獨特的嘻哈生態。</div>
             </div>
             <a class="ig_wrap" href="https://instagram.com/325trippin_house?igshid=YmMyMTA2M2Y=" target="_blank"
                 style="color:#000;height: 80px;">
@@ -287,11 +292,11 @@
 
     <!-- Reservation Section Begin -->
     <section class="reservation" id="reservation">
-        <div class="reservation_title">
+        <div class="reservation_title wow fadeInUp">
             <div class="">Reservation & Price List</div>
             <h4>預約流程與價目表</h4>
         </div>
-        <div>
+        <div class="reservation_env wow fadeInUp">
             <img src="assets/images/Env.jpg" alt="環境照" width="">
         </div>
         <div class="container">
@@ -301,7 +306,7 @@
                 <div>如在消費過程中有發生價錢上的問題，歡迎點擊「聯絡我們」進行申訴，我們將會替您解決疑問。</div>
             </div>
         </div>
-        <div class="product__details__tab">
+        <div class="product__details__tab wow fadeInUp">
             <ul class="nav nav-tabs" role="tablist">
                 <li class="nav-item">
                     <a class="nav-link active" data-toggle="tab" href="#perm" role="tab">燙髮服務</a>
@@ -603,6 +608,7 @@
 
     <!-- Portfolio Section Begin -->
     <section class="portfolio" id="portfolio">
+        <h4>作品瀏覽</h4>
         <div class="portfolio-jarallax portfolio-jarallax-1">
             <div class="potfolio-item">
                 <div>Adam</div>
@@ -932,6 +938,7 @@
     <script src="vendor/js/jquery.countdown.min.js"></script>
     <script src="vendor/js/jquery.slicknav.js"></script>
     <script src="vendor/js/mixitup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -939,6 +946,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jarallax/2.0.3/jarallax.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script>
+        new WOW().init();
+
         $('#form').submit(function (e) {
             e.preventDefault();
             console.log('e')

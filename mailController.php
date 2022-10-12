@@ -27,18 +27,18 @@ try {
         $message = $_POST['message'];
 
         $mail->Username = 'dodowangyc@gmail.com'; // YOUR gmail email
-        $mail->Password = 'dododo0320'; // YOUR gmail password
+        $mail->Password = 'qunafazquimrmeqg'; // YOUR gmail password
     
         // Sender and recipient settings
-        $mail->setFrom('dodowangyc@gmail.com', '測試!');
+        $mail->setFrom('dodowangyc@gmail.com', '聯絡 | 325trippinhouse');
         $mail->addAddress($email, 'he');
         // $mail->addReplyTo('example@gmail.com', 'Sender Name'); // to set the reply to
     
         // Setting the email content
         $mail->IsHTML(true);
-        $mail->Subject = "測試預約";
-        $mail->Body = '顧客姓名：' . $name . '<br>' . '訊息：' . $message . '<br>' . '連絡電話' . $contact . '<br>' .
-        'EMAIL:' . $email;
+        $mail->Subject = "聯絡 | 325trippinhouse";
+        $mail->Body = '顧客姓名：' . $name . '<br>' . '訊息內容：' . $message . '<br>' . '連絡電話：' . $phone . '<br>' .
+        'Email：' . $email;
         // $mail->AltBody = 'Plain text message body for non-HTML email client. Gmail SMTP email body.';
     
         $mail->send();
