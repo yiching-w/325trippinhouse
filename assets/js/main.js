@@ -117,12 +117,11 @@
     $(".jarallax").jarallax({
         speed: 0.1
     });
-    $(".portfolio-jarallax-1").jarallax({
-        speed: 0.1
-    });
-    $(".portfolio-jarallax-2").jarallax({
-        speed: 0.1
-    });
+    for (let i = 1; i <= $('.portfolio-jarallax').length; i++) {
+        $(".portfolio-jarallax-" + i).jarallax({
+            speed: 0.1
+        });
+    }
 
     // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
     let vh = window.innerHeight * 0.01;
